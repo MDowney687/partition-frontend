@@ -2,6 +2,11 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-8">
       <div className="max-w-2xl w-full text-center">
+      <img
+  src="/partition-logo.png"
+  alt="Partition logo"
+  className="mx-auto mb-6 w-24 sm:w-32"
+/>
         <h1 className="text-4xl font-bold mb-4 text-blue-600">Partition</h1>
         <p className="text-lg text-gray-700 mb-8">
           Find your perfect home — Buy, Sell, or Rent with ease.
